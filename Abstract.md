@@ -27,19 +27,7 @@ By shifting from reactive disease management to proactive risk prediction, the p
 - Minimizes financial losses  
 - Promotes efficient and sustainable poultry farm management  
 
----
+ simple farmer-friendly risk alerts | Aligns directly with proposed abnormal behavior detection system |
 
-# Literature Survey
 
-| S.No | Study Area | Techniques / Methods Used | Key Findings | Limitations | Relevance to Proposed System |
-|------|------------|--------------------------|--------------|-------------|------------------------------|
-| 1 | Poultry Disease Monitoring (General) – Reported by FAO | Manual observation, veterinary inspection, mortality tracking | Poultry diseases cause major economic losses globally; detection usually happens after visible symptoms | Reactive approach; late detection; labor-intensive | Shows need for automated early detection system |
-| 2 | Precision Livestock Farming (PLF) | IoT sensors, environmental monitoring (temperature, humidity, ammonia), real-time dashboards | Continuous monitoring improves farm management and health tracking | Mostly monitors environment; limited disease prediction capability | Supports use of sensor-based real-time data collection |
-| 3 | Supervised ML Models for Disease Prediction | Decision Tree, Random Forest, SVM, ANN | Accuracy between 85–95% in disease classification | Requires labeled historical disease data; difficult for small farms | Suggests ML is effective but needs alternative approach without heavy labeling |
-| 4 | Deep Learning for Time-Series Data | LSTM, RNN models for feed intake, activity, temperature patterns | Captures sequential behavior changes before visible symptoms | Needs large datasets; computationally expensive | Useful for modeling daily farm parameter trends |
-| 5 | Anomaly Detection Models | Isolation Forest, Autoencoders, One-Class SVM, Statistical Control Charts | Learns normal patterns and detects unusual deviations | May not directly classify disease type | Highly suitable for early warning risk prediction system |
-| 6 | IoT + Cloud-Based Smart Poultry Systems | Sensor integration, cloud storage, SMS/alert systems | Real-time alerts help farmers act quickly | Often limited to environmental alerts only | Supports integration of ML + IoT + alert system |
-| 7 | Multi-Parameter Health Monitoring Research | Combined analysis of feed intake, mortality, water intake, bird activity | Early abnormal patterns observed before mortality spikes | Few systems provide simple farmer-friendly risk alerts | Aligns directly with proposed abnormal behavior detection system |
-
----
 
